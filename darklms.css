@@ -144,6 +144,9 @@ input, .navbar .brand {
     color:#fff;
     text-shadow: none!important;
 }
+#page{
+    height: 3000px!important;
+}
 #page-footer {
     background: var(--bg1)!important;
     margin-top: 10px;
@@ -165,4 +168,27 @@ input, .navbar .brand {
 }
 .social_contact > a {
     color:var(--accent);
+}
+.sectionname{
+    background-color:var(--b3) !important;
+    border:none!important;
+    border-radius: 2px;
+    text-align: center;
+}
+.course-content ul li.section.main {
+    background: none!important;
+}
+.instancename,
+.no-overflow{
+    color:#fff;
+}
+.btn.btn-link{
+    background-color: var(--b2);
+    box-shadow:none;
+}
+.section .activity .actions {
+     background-color: var(--b2);
+}
+.contnet{
+    background: var(--b2);
 }
