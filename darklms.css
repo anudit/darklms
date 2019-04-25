@@ -199,11 +199,11 @@ input, .navbar .brand {
      color: #afafaf !important;
 }
 img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/pdf-24"] {
-  content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/pdf.png");
+  content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/pdf.png");
 }
 img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/spreadsheet-24"] {
-  content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/xls.png");
+  content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/xls.png");
 }
 img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/document-24"] {
-  content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/dpc.png");
+  content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/dpc.png");
 }
