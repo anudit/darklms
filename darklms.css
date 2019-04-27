@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400');
-
 :root{
 --b1: #292929; 
 --b2: #333333; 
---b3: #424242 ; 
---accent: #0044bf;; 
+--b3: #424242; 
+--accent: #0044bf; 
 --font-color:#fff;
 }
 body{
@@ -23,9 +22,6 @@ body{
 }
 input, .navbar .brand {
     background-color:var(--accent) !important;
-}
-.block .content {
-    background-color: var(--b3) !important;
 }
 #wrapper {
     border-top: 4px solid var(--accent) !important;
@@ -105,12 +101,6 @@ input, .navbar .brand {
     visibility: hidden;
     display:none;
 }
-.pull-left{
-    height: 70px;
-}
-.media{
-    padding: 10px;   
-}
 .block .header .title h2:before {
     background-color: var(--accent);
 }
@@ -148,9 +138,6 @@ input, .navbar .brand {
 .dockeditem > div > div > h2, .loginbox h2{
     color:var(--font-color);
     text-shadow: none!important;
-}
-#page{
-    height: 3000px!important;
 }
 #page-footer {
     background: var(--bg1)!important;
@@ -202,6 +189,17 @@ input, .navbar .brand {
 .content h3.sectionname {
      color: #afafaf !important;
 }
+.loginpanel{
+    background: var(--b3)!important;
+    color: var(--font-color)!important;
+}
+#inputName, #inputPassword, #username,#password{
+    background-color: var(--b1) !important;
+    border: none;
+}
+.block .content {
+    background-color: var(--b3)!important;
+}
 img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/pdf-24"] {
   content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/pdf.png");
 }
@@ -219,13 +217,4 @@ img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/text
 }
 img[src="http://lms.bennett.edu.in/theme/image.php/lambda/url/1545649038/icon"] {
     content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/link.png");
-}
-
-.loginpanel{
-    background: var(--b3)!important;
-    color: var(--font-color)!important;
-}
-#inputName, #inputPassword, #username,#password{
-    background-color: var(--b1) !important;
-    border: none;
 }
