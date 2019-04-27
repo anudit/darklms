@@ -121,7 +121,7 @@ input, .navbar .brand {
     display: none;
 }
 .user > a{
-    color:#fff;
+    color:var(--font-color);
     text-transform:uppercase;
 }
 .unread_notification {
