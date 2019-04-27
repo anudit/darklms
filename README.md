@@ -28,9 +28,4 @@
     `
 
 
-2. Click on the Bookmark to turn of the lights.
-
-## Usage
-
-1. With TaperMonkey enabled, navigate to any official Android Documentation, here is an [example](http://developer.android.com/reference/android/database/sqlite/SQLiteQueryBuilder.html).
-
+2. Click on the Bookmark to turn of the lights
