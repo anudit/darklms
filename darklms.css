@@ -17,7 +17,8 @@ body{
 .clearfix, 
 .slidershadow,
 .text-center,
-.content{
+.content,
+#block-login{
     background-color:var(--b2) !important;
 }
 input, .navbar .brand {
@@ -62,13 +63,14 @@ input, .navbar .brand {
 .row.text-center, 
 .header.text-center, 
 .block .header .title,
-.pagination{
+.pagination,
+#block-login label{
     background-color:var(--b3) !important;
 }
 .btn-group>.btn{
     background-color:var(--accent) !important;
 }
-.tab-content{
+.tab-content,#block-login{
     border:none;
 }
 .block_myoverview .well{
@@ -141,7 +143,7 @@ input, .navbar .brand {
 .dockeditem > div > div{
     background-color:var(--b2) !important;
 }
-.dockeditem > div > div > h2{
+.dockeditem > div > div > h2, .loginbox h2{
     color:#fff;
     text-shadow: none!important;
 }
@@ -206,4 +208,22 @@ img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/spre
 }
 img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/document-24"] {
   content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/doc.png");
+}
+img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/powerpoint-24"] {
+    content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/ppt.png");
+}
+img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/text-24"] {
+    content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/txt.png");
+}
+img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/icon"] {
+    content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/link.png");
+}
+
+.loginpanel{
+    background: var(--b3)!important;
+    color: #fff!important;
+}
+#inputName, #inputPassword, #username,#password{
+    background-color: var(--b1) !important;
+    border: none;
 }
