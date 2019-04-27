@@ -4,7 +4,7 @@
 --b1: #292929; 
 --b2: #333333; 
 --b3: #424242 ; 
---accent: #00f; 
+--accent: #0044bf;; 
 --font-color:#fff;
 }
 body{
@@ -24,7 +24,9 @@ body{
 input, .navbar .brand {
     background-color:var(--accent) !important;
 }
-
+.block .content {
+    background-color: var(--b3) !important;
+}
 #wrapper {
     border-top: 4px solid var(--accent) !important;
     background-color:var(--bg2);
@@ -84,7 +86,7 @@ input, .navbar .brand {
     stroke: var(--accent);
 }
 .progress-chart-container .progress-doughnut .progress-text.has-percent {
-    color:#fff;
+    color:var(--font-color);
 }
 .nav-tabs {
     background: none repeat scroll 0 0 var(--b3);
@@ -113,7 +115,7 @@ input, .navbar .brand {
     background-color: var(--accent);
 }
 .message > a>{
-    color:#fff;
+    color:var(--font-color);
 }
 .message > a > .icon{
     display: none;
@@ -144,7 +146,7 @@ input, .navbar .brand {
     background-color:var(--b2) !important;
 }
 .dockeditem > div > div > h2, .loginbox h2{
-    color:#fff;
+    color:var(--font-color);
     text-shadow: none!important;
 }
 #page{
@@ -183,7 +185,7 @@ input, .navbar .brand {
 }
 .instancename,
 .no-overflow{
-    color:#fff;
+    color:var(--font-color);
 }
 .btn.btn-link{
     background-color: var(--b2);
@@ -194,7 +196,7 @@ input, .navbar .brand {
 }
 .breadcrumb>li, 
 .completionprogress{
-    color: #fff !important;
+    color: var(--font-color) !important;
     text-shadow: none !important;
 }
 .content h3.sectionname {
@@ -221,7 +223,7 @@ img[src="http://lms.bennett.edu.in/theme/image.php/lambda/url/1545649038/icon"] 
 
 .loginpanel{
     background: var(--b3)!important;
-    color: #fff!important;
+    color: var(--font-color)!important;
 }
 #inputName, #inputPassword, #username,#password{
     background-color: var(--b1) !important;
