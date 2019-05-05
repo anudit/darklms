@@ -5,7 +5,7 @@
 
 1. Install the [Tampermonkey Chrome Extension](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
 
-2. Install the script from [Greasy Fork](https://greasyfork.org/en/scripts/382637-dark-lms) (alternatively, insert a new Userscript into TamperMonkey and copy and paste in the [script](tampermonkey.js)).
+2. Install the script from [Greasy Fork](https://greasyfork.org/en/scripts/382637-dark-lms) (alternatively, insert a new Userscript into Tampermonkey and copy and paste in the [script](tampermonkey.js)).
 
 3. With the Tampermonkey Script enabled, simply open LMS.
 
