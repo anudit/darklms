@@ -1,9 +1,9 @@
 // ==UserScript==
 // @name         Dark LMS
-// @namespace    http://tampermonkey.net/
-// @version      0.1
+// @namespace    https://greasyfork.org/en/users/32795-nikramakrishnan
+// @version      2019.05.05
 // @description  Try to make the LMS less of an eyesore
-// @author       NikRamakrishnan
+// @author       anuditnagar, NikRamakrishnan
 // @match        *://lms.bennett.edu.in/*
 // @grant        none
 // @run-at      document-start
@@ -20,4 +20,4 @@ window.addEventListener('DOMContentLoaded', function (e) {
 		ss.href = "https://gitcdn.xyz/repo/anuditnagar/darklms/master/darklms.min.css";
 		document.head.appendChild(ss);
 	}
-});s
+});
