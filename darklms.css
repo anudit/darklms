@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400');
+
 :root{
 --b1: #292929; 
 --b2: #333333; 
---b3: #424242; 
---accent: #0044bf; 
+--b3: #424242 ; 
+--accent: #00f; 
 --font-color:#fff;
 }
+
 body{
     background: none;
     background-color: var(--b1) !important;
@@ -23,6 +25,7 @@ body{
 input, .navbar .brand {
     background-color:var(--accent) !important;
 }
+
 #wrapper {
     border-top: 4px solid var(--accent) !important;
     background-color:var(--bg2);
@@ -54,6 +57,7 @@ input, .navbar .brand {
     padding: 10px;
     text-align: center;
 }
+
 .block .header .title {
     padding:0px;
     background: none;
@@ -82,8 +86,9 @@ input, .navbar .brand {
     stroke: var(--accent);
 }
 .progress-chart-container .progress-doughnut .progress-text.has-percent {
-    color:var(--font-color);
+    color:#fff;
 }
+
 .nav-tabs {
     background: none repeat scroll 0 0 var(--b3);
     border: none;
@@ -91,6 +96,7 @@ input, .navbar .brand {
     visibility: hidden;
     display: none;
 }
+
 .media-heading > a{
     color:#ddd !important;
 }
@@ -105,13 +111,13 @@ input, .navbar .brand {
     background-color: var(--accent);
 }
 .message > a>{
-    color:var(--font-color);
+    color:#fff;
 }
 .message > a > .icon{
     display: none;
 }
 .user > a{
-    color:var(--font-color);
+    color:#fff;
     text-transform:uppercase;
 }
 .unread_notification {
@@ -136,7 +142,7 @@ input, .navbar .brand {
     background-color:var(--b2) !important;
 }
 .dockeditem > div > div > h2, .loginbox h2{
-    color:var(--font-color);
+    color:#fff;
     text-shadow: none!important;
 }
 #page-footer {
@@ -172,7 +178,7 @@ input, .navbar .brand {
 }
 .instancename,
 .no-overflow{
-    color:var(--font-color);
+    color:#fff;
 }
 .btn.btn-link{
     background-color: var(--b2);
@@ -183,22 +189,11 @@ input, .navbar .brand {
 }
 .breadcrumb>li, 
 .completionprogress{
-    color: var(--font-color) !important;
+    color: #fff !important;
     text-shadow: none !important;
 }
 .content h3.sectionname {
      color: #afafaf !important;
-}
-.loginpanel{
-    background: var(--b3)!important;
-    color: var(--font-color)!important;
-}
-#inputName, #inputPassword, #username,#password{
-    background-color: var(--b1) !important;
-    border: none;
-}
-.block .content {
-    background-color: var(--b3)!important;
 }
 img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/pdf-24"] {
   content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/pdf.png");
@@ -217,4 +212,46 @@ img[src="http://lms.bennett.edu.in/theme/image.php/lambda/core/1545649038/f/text
 }
 img[src="http://lms.bennett.edu.in/theme/image.php/lambda/url/1545649038/icon"] {
     content:url("https://raw.githubusercontent.com/anuditnagar/darklms/master/icons/link.png");
+}
+.loginpanel{
+    background: var(--b3)!important;
+    color: #fff!important;
+}
+#inputName, #inputPassword, #username,#password{
+    background-color: var(--b1) !important;
+    border: none;
+}
+.block .content {
+    background-color: var(--b3)!important;
+}
+.text-box{
+    background-color: inherit;
+}
+.navbar .dropdown-menu {
+    padding: 0;
+    margin-left: -2px;
+    margin-top: 0;
+    border-bottom: 4px solid var(--accent);
+}
+#page-footer .content a, #page-footer .footerlinks a{
+    text-shadow: none!important;
+    color: var(--font-color)!important;
+}
+#page-footer .block .header .title h2:after {
+    display: none;
+    height: 0px;
+    visibility: hidden;
+}
+.userprofile .profile_tree section {
+    display: inline-block;
+    width: 100%;
+    border-radius: 4px;
+    background-color: var(--b3) !important;
+    border: 0px;
+    box-shadow: 0px 0px 2px 2px #2d2d2d;
+    color:var(--font-color)!important;
+}
+.userprofile .profile_tree section h3 {
+    text-shadow: none!important;
+    color: var(--font-color)!important;
 }
