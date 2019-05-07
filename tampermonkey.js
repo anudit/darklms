@@ -17,7 +17,7 @@ window.addEventListener('DOMContentLoaded', function (e) {
 		var ss = document.createElement('link');
 		ss.rel = "stylesheet";
 		ss.type = "text/css";
-		ss.href = "https://gitcdn.xyz/repo/anuditnagar/darklms/master/darklms.min.css";
+		ss.href = "https://cdn.jsdelivr.net/gh/anuditnagar/darklms/darklms.min.css";
 		document.head.appendChild(ss);
 	}
 });
