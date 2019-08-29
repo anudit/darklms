@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400');
 
 :root{
---b1: #292929; 
---b2: #333333; 
---b3: #424242 ; 
---accent: #00f; 
+--b1: #292929;
+--b2: #333333;
+--b3: #424242 ;
+--accent: #00f;
 --font-color:#fff;
 }
 
@@ -14,8 +14,8 @@ body{
     font-family: "Poppins" !important;
 }
 .container-fluid,
-.navbar, 
-.clearfix, 
+.navbar,
+.clearfix,
 .slidershadow,
 .text-center,
 .content,
@@ -36,9 +36,9 @@ input, .navbar .brand {
     background-color:var(--b3) !important;
     color: var(--font-color) !important;
 }
-.block .header .title h2, 
-.block ul.block_tree, 
-.breadcrumb a, 
+.block .header .title h2,
+.block ul.block_tree,
+.breadcrumb a,
 .block ul.block_tree a{
     color: var(--font-color) !important;
     text-shadow : none !important;
@@ -62,8 +62,8 @@ input, .navbar .brand {
     padding:0px;
     background: none;
 }
-.row.text-center, 
-.header.text-center, 
+.row.text-center,
+.header.text-center,
 .block .header .title,
 .pagination,
 #block-login label{
@@ -187,7 +187,7 @@ input, .navbar .brand {
 .section .activity .actions {
      background-color: var(--b2);
 }
-.breadcrumb>li, 
+.breadcrumb>li,
 .completionprogress{
     color: #fff !important;
     text-shadow: none !important;
